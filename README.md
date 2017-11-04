@@ -1,2 +1,2 @@
-# vaskohandmade
+# VASKOHANDMADE
 Pedales y amplificadores.
