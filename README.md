@@ -1,2 +1,3 @@
 # VASKOHANDMADE
-Pedales y amplificadores.
+
+Pedals and amps.
