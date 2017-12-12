@@ -1,174 +1,27 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,300,400,400i,500,700,900");
 .bg-john-00 {
-  background: url("../images/02-john/backgrounds/00.jpg"); }
+  background: url("../images/vasko/backgrounds/00.jpg"); }
 
 .bg-john-01 {
-  background: url("../images/02-john/backgrounds/01.jpg"); }
+  background: url("../images/vasko/backgrounds/01.jpg"); }
 
 .bg-john-02 {
-  background: url("../images/02-john/backgrounds/02.jpg"); }
+  background: url("../images/vasko/backgrounds/02.jpg"); }
 
 .bg-john-03 {
-  background: url("../images/02-john/backgrounds/03.jpg"); }
+  background: url("../images/vasko/backgrounds/03.jpg"); }
 
 .bg-john-04 {
-  background: url("../images/02-john/backgrounds/04.jpg"); }
+  background: url("../images/vasko/backgrounds/04.jpg"); }
 
 .bg-john-05 {
-  background: url("../images/02-john/backgrounds/05.jpg"); }
+  background: url("../images/vasko/backgrounds/05.jpg"); }
 
 .bg-john-06 {
-  background: url("../images/02-john/backgrounds/06.jpg"); }
+  background: url("../images/vasko/backgrounds/06.jpg"); }
 
 .bg-john-07 {
-  background: url("../images/02-john/backgrounds/07.jpg"); }
-
-.john-timeline-01 {
-  background: url("../images/02-john/timeline/timeline-1.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.john-timeline-02 {
-  background: url("../images/02-john/timeline/timeline-2.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.john-timeline-03 {
-  background: url("../images/02-john/timeline/timeline-3.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.john-timeline-04 {
-  background: url("../images/02-john/timeline/timeline-4.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.bg-jessica-01 {
-  background: url("../images/01-jessica/backgrounds/01.png"); }
-
-.bg-jessica-02 {
-  background: url("../images/01-jessica/backgrounds/02.png"); }
-
-.bg-jessica-03 {
-  background: url("../images/01-jessica/backgrounds/03.jpg"); }
-
-.bg-jessica-04 {
-  background: url("../images/01-jessica/backgrounds/04.jpg"); }
-
-.bg-jessica-05 {
-  background: url("../images/01-jessica/backgrounds/05.jpg"); }
-
-.bg-jessica-06 {
-  background: url("../images/01-jessica/backgrounds/06.jpg"); }
-
-.bg-jessica-07 {
-  background: url("../images/01-jessica/backgrounds/07.jpg"); }
-
-.jessica-timeline-01 {
-  background: url("../images/01-jessica/timeline/timeline-1-01.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.jessica-timeline-02 {
-  background: url("../images/01-jessica/timeline/timeline-2-01.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.jessica-timeline-03 {
-  background: url("../images/01-jessica/timeline/timeline-3-01.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.jessica-timeline-04 {
-  background: url("../images/01-jessica/timeline/timeline-4-01.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.bg-startup-00 {
-  background: url("../images/04-startup/backgrounds/bg00.jpg"); }
-
-.bg-startup-01 {
-  background: url("../images/04-startup/backgrounds/bg01.jpg"); }
-
-.bg-startup-02 {
-  background: url("../images/04-startup/backgrounds/bg02.jpg"); }
-
-.bg-startup-03 {
-  background: url("../images/04-startup/backgrounds/bg03.jpg"); }
-
-.bg-startup-04 {
-  background: url("../images/04-startup/backgrounds/bg04.jpg"); }
-
-.bg-startup-05 {
-  background: url("../images/04-startup/backgrounds/bg05.png"); }
-
-.startup-timeline-01 {
-  background: url("../images/04-startup/timeline/timeline-1.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.startup-timeline-02 {
-  background: url("../images/04-startup/timeline/timeline-2.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.startup-timeline-03 {
-  background: url("../images/04-startup/timeline/timeline-3.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.startup-timeline-04 {
-  background: url("../images/04-startup/timeline/timeline-4.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.startup-featured-01 {
-  background: url("../images/04-startup/featured/02-1.jpg"); }
-
-.bg-samantha-00 {
-  background: url("../images/03-samantha/backgrounds/bg00.jpg");
-  background-position: center center;
-  background-size: cover; }
-
-.bg-samantha-01 {
-  background: url("../images/03-samantha/backgrounds/bg01.jpg");
-  background-position: center center;
-  background-size: cover; }
-
-.bg-samantha-02 {
-  background: url("../images/03-samantha/backgrounds/bg02.jpg");
-  background-position: center center;
-  background-size: cover; }
-
-.bg-samantha-03 {
-  background: url("../images/03-samantha/backgrounds/bg03.jpg");
-  background-position: center center;
-  background-size: cover; }
-
-.timeline-bg01-02 {
-  background: url("../images/03-samantha/timeline/timeline-1-01.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.timeline-bg02-02 {
-  background: url("../images/03-samantha/timeline/timeline-2-01.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.timeline-bg03-02 {
-  background: url("../images/03-samantha/timeline/timeline-3-01.jpg");
-  background-position: center;
-  background-size: cover; }
-
-.timeline-bg04-02 {
-  background: url("../images/03-samantha/timeline/timeline-4-01.jpg");
-  background-position: center;
-  background-size: cover; }
-
-#mobile {
-  background: url("../images/mobile-s.png");
-  background-position: bottom center;
-  background-repeat: no-repeat; }
+  background: url("../images/vasko/backgrounds/07.jpg"); }
 
 .fontcolor-regular, .fontcolor-regular a {
   color: #303030 !important; }
@@ -3582,74 +3435,6 @@ Vertical Timeline
   background: #c1c1c1; }
 .dark .team-social li a:hover i {
   background-color: #E84855 !important; }
-
-/* Promo */
-#promo {
-  background: url("../images/guy.jpg");
-  background-position: bottom center;
-  background-repeat: no-repeat; }
-
-@media (max-width: 992px) {
-  #promo {
-    background: none; } }
-#promo-jessica {
-  background: url("../images/01-jessica/backgrounds/06.jpg");
-  background-position: center center;
-  background-repeat: no-repeat;
-  background-size: cover; }
-
-@media (max-width: 992px) {
-  #promo-jessica {
-    background: none; } }
-/* Photocard */
-#photocard .carousel-control .tp-leftarrow {
-  top: 50%;
-  transform: matrix(1, 0, 0, 1, 10, -50);
-  left: 0px; }
-#photocard .carousel-control .tp-rightarrow {
-  top: 50%;
-  transform: matrix(1, 0, 0, 1, -110, -50);
-  left: 100%; }
-#photocard .carousel-indicators {
-  bottom: 10px; }
-  #photocard .carousel-indicators li, #photocard .carousel-indicators li.active {
-    height: 4px;
-    width: 24px;
-    background: #fff;
-    background: rgba(255, 255, 255, 0.3);
-    border: none;
-    border-radius: 0;
-    margin: 0; }
-  #photocard .carousel-indicators li.active {
-    background-color: #E84855 !important; }
-#photocard .carousel-control.right, #photocard .carousel-control.left {
-  background: none; }
-#photocard .carousel-caption {
-  padding-top: 0;
-  text-shadow: none; }
-  #photocard .carousel-caption h3, #photocard .carousel-caption p {
-    display: inline-block;
-    background: rgba(0, 0, 0, 0.5);
-    color: #fff;
-    padding: 0 21px; }
-  #photocard .carousel-caption h3 {
-    margin-bottom: 4px; }
-
-/* Testmonials */
-#testmonials h4 {
-  letter-spacing: .3px; }
-#testmonials .dark h4 {
-  color: #fff; }
-#testmonials .dark p {
-  color: #c1c1c1; }
-#testmonials .dark .company {
-  color: #8e8e8e; }
-#testmonials .light h4 {
-  color: #fff; }
-#testmonials .light p {
-  color: #c1c1c1; }
-#testmonials .light .company {
-  color: #8e8e8e; }
 
 /* Feedback Block */
 .feedback .wpcf7-form span.wpcf7-form-control-wrap {
