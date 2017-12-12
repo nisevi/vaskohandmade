@@ -9,922 +9,957 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-61029734-5"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
 
         gtag('config', 'UA-61029734-5');
     </script>
-   <title>Vasko | Handmade pedals and amps.</title>
-   <meta charset="UTF-8">
-   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name=viewport content="width=device-width, initial-scale=1">
-   <meta name="description" content="Fletcher Responsive Website HTML Template is the professional responsive one-page website template, based on the latest Bootstrap 3">
-   <meta name="keywords" content="html5, one page, one-page, template, website, responsive, bootstrap ">
-   <link rel=icon href=favicon.ico sizes="16x16" type="image/png">
-   <style>
-      #preloader {
-         position: fixed;
-         /*position: absolute;*/
-         left: 0;
-         top: 0;
-         z-index: 99999;
-         width: 100%;
-         height: 100%;
-         overflow: visible;
-         background-color: #252b33;
-         /*background: #202020 url("../images/preloader.gif") no-repeat center center;*/
-      }
-      .sk-folding-cube {
-         width: 40px;
-         height: 40px;
-         position: absolute;
-         top: 0;
-         left: 0;
-         bottom: 60px;
-         right: 0;
-         margin: auto;
-         -webkit-transform: rotateZ(45deg);
-         transform: rotateZ(45deg);
-      }
-      .sk-folding-cube .sk-cube {
-         float: left;
-         width: 50%;
-         height: 50%;
-         position: relative;
-         -webkit-transform: scale(1.1);
-         -ms-transform: scale(1.1);
-         transform: scale(1.1);
-      }
-      .sk-folding-cube .sk-cube:before {
-         content: '';
-         position: absolute;
-         top: 0;
-         left: 0;
-         width: 100%;
-         height: 100%;
-         background-color: #fff;
-         -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
-         animation: sk-foldCubeAngle 2.4s infinite linear both;
-         -webkit-transform-origin: 100% 100%;
-         -ms-transform-origin: 100% 100%;
-         transform-origin: 100% 100%;
-      }
-      .sk-folding-cube .sk-cube2 {
-         -webkit-transform: scale(1.1) rotateZ(90deg);
-         transform: scale(1.1) rotateZ(90deg);
-      }
-      .sk-folding-cube .sk-cube3 {
-         -webkit-transform: scale(1.1) rotateZ(180deg);
-         transform: scale(1.1) rotateZ(180deg);
-      }
-      .sk-folding-cube .sk-cube4 {
-         -webkit-transform: scale(1.1) rotateZ(270deg);
-         transform: scale(1.1) rotateZ(270deg);
-      }
-      .sk-folding-cube .sk-cube2:before {
-         -webkit-animation-delay: 0.3s;
-         animation-delay: 0.3s;
-      }
-      .sk-folding-cube .sk-cube3:before {
-         -webkit-animation-delay: 0.6s;
-         animation-delay: 0.6s;
-      }
-      .sk-folding-cube .sk-cube4:before {
-         -webkit-animation-delay: 0.9s;
-         animation-delay: 0.9s;
-      }
-      @-webkit-keyframes sk-foldCubeAngle {
-         0%, 10% {
-            -webkit-transform: perspective(140px) rotateX(-180deg);
-            transform: perspective(140px) rotateX(-180deg);
-            opacity: 0;
-         } 25%, 75% {
-              -webkit-transform: perspective(140px) rotateX(0deg);
-              transform: perspective(140px) rotateX(0deg);
-              opacity: 1;
-           } 90%, 100% {
-                -webkit-transform: perspective(140px) rotateY(180deg);
-                transform: perspective(140px) rotateY(180deg);
-                opacity: 0;
-             }
-      }
-      @keyframes sk-foldCubeAngle {
-         0%, 10% {
-            -webkit-transform: perspective(140px) rotateX(-180deg);
-            transform: perspective(140px) rotateX(-180deg);
-            opacity: 0;
-         } 25%, 75% {
-              -webkit-transform: perspective(140px) rotateX(0deg);
-              transform: perspective(140px) rotateX(0deg);
-              opacity: 1;
-           } 90%, 100% {
-                -webkit-transform: perspective(140px) rotateY(180deg);
-                transform: perspective(140px) rotateY(180deg);
-                opacity: 0;
-             }
-      }
-   </style>
+    <title>Vasko | Handmade pedals and amps.</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name=viewport content="width=device-width, initial-scale=1">
+    <meta name="description"
+          content="Fletcher Responsive Website HTML Template is the professional responsive one-page website template, based on the latest Bootstrap 3">
+    <meta name="keywords" content="html5, one page, one-page, template, website, responsive, bootstrap ">
+    <link rel=icon href=favicon.ico sizes="16x16" type="image/png">
+    <style>
+        #preloader {
+            position: fixed;
+            /*position: absolute;*/
+            left: 0;
+            top: 0;
+            z-index: 99999;
+            width: 100%;
+            height: 100%;
+            overflow: visible;
+            background-color: #252b33;
+            /*background: #202020 url("../images/preloader.gif") no-repeat center center;*/
+        }
 
+        .sk-folding-cube {
+            width: 40px;
+            height: 40px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 60px;
+            right: 0;
+            margin: auto;
+            -webkit-transform: rotateZ(45deg);
+            transform: rotateZ(45deg);
+        }
+
+        .sk-folding-cube .sk-cube {
+            float: left;
+            width: 50%;
+            height: 50%;
+            position: relative;
+            -webkit-transform: scale(1.1);
+            -ms-transform: scale(1.1);
+            transform: scale(1.1);
+        }
+
+        .sk-folding-cube .sk-cube:before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #fff;
+            -webkit-animation: sk-foldCubeAngle 2.4s infinite linear both;
+            animation: sk-foldCubeAngle 2.4s infinite linear both;
+            -webkit-transform-origin: 100% 100%;
+            -ms-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+        }
+
+        .sk-folding-cube .sk-cube2 {
+            -webkit-transform: scale(1.1) rotateZ(90deg);
+            transform: scale(1.1) rotateZ(90deg);
+        }
+
+        .sk-folding-cube .sk-cube3 {
+            -webkit-transform: scale(1.1) rotateZ(180deg);
+            transform: scale(1.1) rotateZ(180deg);
+        }
+
+        .sk-folding-cube .sk-cube4 {
+            -webkit-transform: scale(1.1) rotateZ(270deg);
+            transform: scale(1.1) rotateZ(270deg);
+        }
+
+        .sk-folding-cube .sk-cube2:before {
+            -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+        }
+
+        .sk-folding-cube .sk-cube3:before {
+            -webkit-animation-delay: 0.6s;
+            animation-delay: 0.6s;
+        }
+
+        .sk-folding-cube .sk-cube4:before {
+            -webkit-animation-delay: 0.9s;
+            animation-delay: 0.9s;
+        }
+
+        @-webkit-keyframes sk-foldCubeAngle {
+            0%, 10% {
+                -webkit-transform: perspective(140px) rotateX(-180deg);
+                transform: perspective(140px) rotateX(-180deg);
+                opacity: 0;
+            }
+            25%, 75% {
+                -webkit-transform: perspective(140px) rotateX(0deg);
+                transform: perspective(140px) rotateX(0deg);
+                opacity: 1;
+            }
+            90%, 100% {
+                -webkit-transform: perspective(140px) rotateY(180deg);
+                transform: perspective(140px) rotateY(180deg);
+                opacity: 0;
+            }
+        }
+
+        @keyframes sk-foldCubeAngle {
+            0%, 10% {
+                -webkit-transform: perspective(140px) rotateX(-180deg);
+                transform: perspective(140px) rotateX(-180deg);
+                opacity: 0;
+            }
+            25%, 75% {
+                -webkit-transform: perspective(140px) rotateX(0deg);
+                transform: perspective(140px) rotateX(0deg);
+                opacity: 1;
+            }
+            90%, 100% {
+                -webkit-transform: perspective(140px) rotateY(180deg);
+                transform: perspective(140px) rotateY(180deg);
+                opacity: 0;
+            }
+        }
+    </style>
 </head>
 <body class="">
 
 <!--Pre-Loader-->
 <div id="preloader">
-   <div class="sk-folding-cube">
-      <div class="sk-cube1 sk-cube"></div>
-      <div class="sk-cube2 sk-cube"></div>
-      <div class="sk-cube4 sk-cube"></div>
-      <div class="sk-cube3 sk-cube"></div>
-   </div>
+    <div class="sk-folding-cube">
+        <div class="sk-cube1 sk-cube"></div>
+        <div class="sk-cube2 sk-cube"></div>
+        <div class="sk-cube4 sk-cube"></div>
+        <div class="sk-cube3 sk-cube"></div>
+    </div>
 </div>
 
 <!-- Off-canvas menu -->
 <div class="menu-wrap mobmenu-john">
-   <div class="dividewhite4"></div>
-   <nav class="menu">
-      <ul class="icon-list">
-         <li>
-            <div class="m-usermenu">
-               <div>
-                  <div class="article-author-name">
-                     <h4 class="font-accident-one-bold"><a href="#!">Vasko</a></h4>
-                     <p class="nopadding">
-                        <span class="extrasmall fontcolor-invert">Craftsman</span>
-                     </p>
-                  </div>
-               </div>
-            </div>
-            <div class="dividewhite2"></div>
-         </li>
-         <li class="menu-item"><a href="#header-wrapper-mp"><i class="fa fa-fw fa-star-o"></i><span>Home</span></a></li>
-         <li class="menu-item"><a href="#details"><i class="fa fa-fw fa-bell-o"></i><span>Details</span></a></li>
-         <li class="menu-item"><a href="#portfolio"><i class="fa fa-fw fa-comment-o"></i><span>Portfolio</span></a></li>
-         <li class="menu-item"><a href="#footer-wrapper"><i class="fa fa-fw fa-bell-o"></i><span>Contact</span></a></li>
-      </ul>
-   </nav>
-   <div class="close-button nav-icon2" id="close-button">
-      <div></div>
-   </div>
+    <div class="dividewhite4"></div>
+    <nav class="menu">
+        <ul class="icon-list">
+            <li>
+                <div class="m-usermenu">
+                    <div>
+                        <div class="article-author-name">
+                            <h4 class="font-accident-one-bold"><a href="#!">Vasko</a></h4>
+                            <p class="nopadding">
+                                <span class="extrasmall fontcolor-invert">Craftsman</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="dividewhite2"></div>
+            </li>
+            <li class="menu-item"><a href="#header-wrapper-mp"><i class="fa fa-fw fa-star-o"></i><span>Home</span></a>
+            </li>
+            <li class="menu-item"><a href="#details"><i class="fa fa-fw fa-bell-o"></i><span>Details</span></a></li>
+            <li class="menu-item"><a href="#portfolio"><i class="fa fa-fw fa-comment-o"></i><span>Portfolio</span></a>
+            </li>
+            <li class="menu-item"><a href="#footer-wrapper"><i class="fa fa-fw fa-bell-o"></i><span>Contact</span></a>
+            </li>
+        </ul>
+    </nav>
+    <div class="close-button nav-icon2" id="close-button">
+        <div></div>
+    </div>
 </div>
 <!-- / Off-canvas menu -->
 
 <div class="content-wrap">
 
-   <!-- main-top -->
+    <!-- main-top -->
 
-   <!-- Top Navigation -->
-   <header id="header-wrapper-mp" class="head-overlay sticky-menu-light pt-section" data-name="Home">
-      <div class="sticky-header header-dark sticky-overlay nobg" role="navigation">
-         <div class="container mp-nav">
+    <!-- Top Navigation -->
+    <header id="header-wrapper-mp" class="head-overlay sticky-menu-light pt-section" data-name="Home">
+        <div class="sticky-header header-dark sticky-overlay nobg" role="navigation">
+            <div class="container mp-nav">
 
-            <!-- Logo -->
-            <div id="site-title"><a href="index.html"><h1 class="font-accident-one-bold">Vasko</h1></a></div>
+                <!-- Logo -->
+                <div id="site-title"><a href="index.html"><h1 class="font-accident-one-bold">Vasko</h1></a></div>
 
-            <!-- Main menu -->
-            <nav id="main-menu" class="nav site-navigation primary-navigation">
-               <ul class="sf-menu clearfix" id="example">
-                   <li class="m-desktop menu-item active"><a href="#header-wrapper-mp">Home</a></li>
-                   <li class="m-desktop menu-item"><a href="#details">Details</a></li>
-                   <li class="m-desktop menu-item"><a href="#portfolio">Portfolio</a></li>
-                   <li class="m-desktop menu-item"><a href="#footer-wrapper">Contact</a></li>
-                   <li class="mob-button">
-                       <div class="menu-button nav-icon" id="open-button">
-                           <div></div>
-                       </div>
-                   </li>
-               </ul>
-            </nav>
-
-         </div>
-
-      </div>
-
-   </header>
-   <!-- /Top Navigation -->
-
-
-
-   <div id="content">
-
-      <!-- Revolution Slider -->
-      <section id="slider-revolution" class="slider-revolution">
-         <div class="rev_slider_wrapper">
-            <div id="slider0" class="rev_slider head-overlay" data-version="5.0">
-               <ul>
-                  <!-- SLIDE  -->
-                  <li data-transition="fade" data-slotamount="default" data-masterspeed="default"
-                      data-thumb="assets/custom/images/vasko/rs-images/images/transparent.png"
-                      data-title="Slide">
-                     <!-- MAIN IMAGE -->
-                     <img src="assets/custom/images/vasko/rs-images/01.jpg" alt="fullslide1"
-                          data-bgposition="center center"
-                          data-bgfit="cover"
-                          data-bgrepeat="no-repeat">
-                     <!-- LAYERS -->
-
-                     <!-- LAYER NR. 1 -->
-
-                     <div class="tp-caption cap-title font-accident-one-bold color01 tp-resizeme rs-parallaxlevel-1"
-                          data-x="left"
-                          data-y="center"
-                          data-basealign="grid"
-                          data-voffset="-50"
-                          data-hoffset="['0','10','18','21']"
-                          data-width=”auto”
-                          data-height=”auto”
-                          data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
-                          data-transform_idle="o:1;"
-                          data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                          data-transform_out="auto:auto;s:700;"
-                          data-start="1600"
-                          data-splitin=”none”
-                          data-splitout=”none”
-                          data-responsive_offset=”on”
-                          data-fontsize="['72','64','50','40']"
-                          data-lineheight="['80','70','60','40']"
-                          style="z-index: 2;">fletcher
-                     </div>
-
-                     <!-- LAYER NR. 2 -->
-                     <div class="tp-caption cap-subtitle font-accident-one-light color01 tp-resizeme rs-parallaxlevel-1"
-                          data-x="left"
-                          data-y="center"
-                          data-basealign="grid"
-                          data-voffset="0"
-                          data-hoffset="['0','10','18','21']"
-                          data-width=”auto”
-                          data-height=”auto”
-                          data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
-                          data-transform_idle="o:1;"
-                          data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                          data-transform_out="auto:auto;s:700;"
-                          data-start="2000"
-                          data-splitin=”none”
-                          data-splitout=”none”
-                          data-responsive_offset=”on”
-                          data-fontsize="['21','21','21','21']"
-                          data-lineheight="['32','28','26','24']"
-                          style="z-index: 2;">Universal One-page / Landing Page
-                     </div>
-
-                     <!-- LAYER NR. 3 -->
-                     <div class="tp-caption cap-sub-subtitle color01 tp-resizeme rs-parallaxlevel-1"
-                          data-x="left"
-                          data-y="center"
-                          data-basealign="grid"
-                          data-voffset="30"
-                          data-hoffset="['0','10','18','21']"
-                          data-width=”auto”
-                          data-height=”auto”
-                          data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
-                          data-transform_idle="o:1;"
-                          data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                          data-transform_out="auto:auto;s:700;"
-                          data-start="2200"
-                          data-splitin=”none”
-                          data-splitout=”none”
-                          data-responsive_offset=”on”
-                          data-fontsize="['14','14','14','14']"
-                          data-lineheight="['14','14','14','14']"
-                          style="z-index: 2;">HTML Template
-                     </div>
-
-                  </li>
-
-
-                  <!-- SLIDE  -->
-                  <li data-transition="fade" data-slotamount="default" data-masterspeed="default"
-                      data-thumb="assets/custom/images/vasko/rs-images/images/transparent.png"
-                      data-title="Slide">
-                     <!-- MAIN IMAGE -->
-                     <img src="assets/custom/images/vasko/rs-images/02.jpg" alt="fullslide2" data-bgposition="center center"
-                          data-bgfit="cover" data-bgrepeat="no-repeat">
-                     <!-- LAYERS -->
-
-
-                     <!-- LAYER NR. 1 -->
-
-                     <div class="tp-caption cap-title font-accident-one-bold color01 tp-resizeme rs-parallaxlevel-1"
-                          data-x="left"
-                          data-y="center"
-                          data-basealign="grid"
-                          data-voffset="-50"
-                          data-hoffset="['0','10','18','21']"
-                          data-width=”auto”
-                          data-height=”auto”
-                          data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
-                          data-transform_idle="o:1;"
-                          data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                          data-transform_out="auto:auto;s:700;"
-                          data-start="1600"
-                          data-splitin=”none”
-                          data-splitout=”none”
-                          data-responsive_offset=”on”
-                          data-fontsize="['72','64','50','40']"
-                          data-lineheight="['80','70','60','40']"
-                          style="z-index: 2;">fletcher
-                     </div>
-
-                     <!-- LAYER NR. 2 -->
-                     <div class="tp-caption cap-subtitle font-accident-one-light color01 tp-resizeme rs-parallaxlevel-1"
-                          data-x="left"
-                          data-y="center"
-                          data-basealign="grid"
-                          data-voffset="0"
-                          data-hoffset="['0','10','18','21']"
-                          data-width=”auto”
-                          data-height=”auto”
-                          data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
-                          data-transform_idle="o:1;"
-                          data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                          data-transform_out="auto:auto;s:700;"
-                          data-start="2000"
-                          data-splitin=”none”
-                          data-splitout=”none”
-                          data-responsive_offset=”on”
-                          data-fontsize="['21','21','21','21']"
-                          data-lineheight="['32','28','26','24']"
-                          style="z-index: 2;">Universal One-page / Landing Page
-                     </div>
-
-                     <!-- LAYER NR. 3 -->
-                     <div class="tp-caption cap-sub-subtitle color01 tp-resizeme rs-parallaxlevel-1"
-                          data-x="left"
-                          data-y="center"
-                          data-basealign="grid"
-                          data-voffset="30"
-                          data-hoffset="['0','10','18','21']"
-                          data-width=”auto”
-                          data-height=”auto”
-                          data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
-                          data-transform_idle="o:1;"
-                          data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                          data-transform_out="auto:auto;s:700;"
-                          data-start="2200"
-                          data-splitin=”none”
-                          data-splitout=”none”
-                          data-responsive_offset=”on”
-                          data-fontsize="['14','14','14','14']"
-                          data-lineheight="['14','14','14','14']"
-                          style="z-index: 2;">HTML Template
-                     </div>
-                  </li>
-
-                  <!-- SLIDE  -->
-                  <li data-transition="fade" data-slotamount="default" data-masterspeed="default"
-                      data-thumb="assets/custom/images/vasko/rs-images/images/transparent.png"
-                      data-title="Slide">
-                     <!-- MAIN IMAGE -->
-                     <img src="assets/custom/images/vasko/rs-images/03.jpg" alt="fullslide3" data-bgposition="center center"
-                          data-bgfit="cover" data-bgrepeat="no-repeat">
-                     <!-- LAYERS -->
-
-
-                     <!-- LAYER NR. 1 -->
-
-                     <div class="tp-caption cap-title font-accident-one-bold color01 tp-resizeme rs-parallaxlevel-1"
-                          data-x="left"
-                          data-y="center"
-                          data-basealign="grid"
-                          data-voffset="-50"
-                          data-hoffset="['0','10','18','21']"
-                          data-width=”auto”
-                          data-height=”auto”
-                          data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
-                          data-transform_idle="o:1;"
-                          data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                          data-transform_out="auto:auto;s:700;"
-                          data-start="1600"
-                          data-splitin=”none”
-                          data-splitout=”none”
-                          data-responsive_offset=”on”
-                          data-fontsize="['72','64','50','40']"
-                          data-lineheight="['80','70','60','40']"
-                          style="z-index: 2;">fletcher
-                     </div>
-
-                     <!-- LAYER NR. 2 -->
-                     <div class="tp-caption cap-subtitle font-accident-one-light color01 tp-resizeme rs-parallaxlevel-1"
-                          data-x="left"
-                          data-y="center"
-                          data-basealign="grid"
-                          data-voffset="0"
-                          data-hoffset="['0','10','18','21']"
-                          data-width=”auto”
-                          data-height=”auto”
-                          data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
-                          data-transform_idle="o:1;"
-                          data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                          data-transform_out="auto:auto;s:700;"
-                          data-start="2000"
-                          data-splitin=”none”
-                          data-splitout=”none”
-                          data-responsive_offset=”on”
-                          data-fontsize="['21','21','21','21']"
-                          data-lineheight="['32','28','26','24']"
-                          style="z-index: 2;">Universal One-page / Landing Page
-                     </div>
-
-                     <!-- LAYER NR. 3 -->
-                     <div class="tp-caption cap-sub-subtitle color01 tp-resizeme rs-parallaxlevel-1"
-                          data-x="left"
-                          data-y="center"
-                          data-basealign="grid"
-                          data-voffset="30"
-                          data-hoffset="['0','10','18','21']"
-                          data-width=”auto”
-                          data-height=”auto”
-                          data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
-                          data-transform_idle="o:1;"
-                          data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
-                          data-transform_out="auto:auto;s:700;"
-                          data-start="2200"
-                          data-splitin=”none”
-                          data-splitout=”none”
-                          data-responsive_offset=”on”
-                          data-fontsize="['14','14','14','14']"
-                          data-lineheight="['14','14','14','14']"
-                          style="z-index: 2;">HTML Template
-                     </div>
-                  </li>
-
-               </ul>
-               <div class="tp-bannertimer"></div>
+                <!-- Main menu -->
+                <nav id="main-menu" class="nav site-navigation primary-navigation">
+                    <ul class="sf-menu clearfix" id="example">
+                        <li class="m-desktop menu-item active"><a href="#header-wrapper-mp">Home</a></li>
+                        <li class="m-desktop menu-item"><a href="#details">Details</a></li>
+                        <li class="m-desktop menu-item"><a href="#portfolio">Portfolio</a></li>
+                        <li class="m-desktop menu-item"><a href="#footer-wrapper">Contact</a></li>
+                        <li class="mob-button">
+                            <div class="menu-button nav-icon" id="open-button">
+                                <div></div>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
             </div>
+        </div>
+    </header>
+    <!-- /Top Navigation -->
 
-         </div>
-      </section>
-      <!-- /Revolution Slider -->
+    <div id="content">
+        <!-- Revolution Slider -->
+        <section id="slider-revolution" class="slider-revolution">
+            <div class="rev_slider_wrapper">
+                <div id="slider0" class="rev_slider head-overlay" data-version="5.0">
+                    <ul>
+                        <!-- SLIDE  -->
+                        <li data-transition="fade" data-slotamount="default" data-masterspeed="default"
+                            data-thumb="assets/custom/images/vasko/rs-images/images/transparent.png"
+                            data-title="Slide">
+                            <!-- MAIN IMAGE -->
+                            <img src="assets/custom/images/vasko/rs-images/01.jpg" alt="fullslide1"
+                                 data-bgposition="center center"
+                                 data-bgfit="cover"
+                                 data-bgrepeat="no-repeat">
+                            <!-- LAYERS -->
 
-      <!-- Details Block -->
-      <section id="details" class="e-block dark bg-darkblue pt-section" data-name="Details">
-         <div class="container dark">
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption cap-title font-accident-one-bold color01 tp-resizeme rs-parallaxlevel-1"
+                                 data-x="left"
+                                 data-y="center"
+                                 data-basealign="grid"
+                                 data-voffset="-50"
+                                 data-hoffset="['0','10','18','21']"
+                                 data-width=”auto”
+                                 data-height=”auto”
+                                 data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                 data-transform_out="auto:auto;s:700;"
+                                 data-start="1600"
+                                 data-splitin=”none”
+                                 data-splitout=”none”
+                                 data-responsive_offset=”on”
+                                 data-fontsize="['72','64','50','40']"
+                                 data-lineheight="['80','70','60','40']"
+                                 style="z-index: 2;">fletcher
+                            </div>
 
-            <div class="container text-center">
-               <span class="flaticon-solar-system-2 details-big-icon"></span>
-               <div class="dividewhite1"></div>
-               <h2 class="font-accident-one-bold fontcolor-invert">Experienced Specialist</h2>
-               <div class="dividewhite2"></div>
-               <h5 class="font-regular-bold uppercase hovercolor">Fletcher – The Universal One-page HTML Template</h5>
-               <div class="dividewhite3"></div>
-               <p class="">
-                  Perfect as corporate, product and app landing page, creative Portfolio or personal Curriculum Vitae / Resume website.
-                  <br>Fletcher Template is suitable for photographers, designers, artist, painters, illustrators
-                  <br>and other creative persons for showing their skills, works, experience and services.
-               </p>
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption cap-subtitle font-accident-one-light color01 tp-resizeme rs-parallaxlevel-1"
+                                 data-x="left"
+                                 data-y="center"
+                                 data-basealign="grid"
+                                 data-voffset="0"
+                                 data-hoffset="['0','10','18','21']"
+                                 data-width=”auto”
+                                 data-height=”auto”
+                                 data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                 data-transform_out="auto:auto;s:700;"
+                                 data-start="2000"
+                                 data-splitin=”none”
+                                 data-splitout=”none”
+                                 data-responsive_offset=”on”
+                                 data-fontsize="['21','21','21','21']"
+                                 data-lineheight="['32','28','26','24']"
+                                 style="z-index: 2;">Universal One-page / Landing Page
+                            </div>
+
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption cap-sub-subtitle color01 tp-resizeme rs-parallaxlevel-1"
+                                 data-x="left"
+                                 data-y="center"
+                                 data-basealign="grid"
+                                 data-voffset="30"
+                                 data-hoffset="['0','10','18','21']"
+                                 data-width=”auto”
+                                 data-height=”auto”
+                                 data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                 data-transform_out="auto:auto;s:700;"
+                                 data-start="2200"
+                                 data-splitin=”none”
+                                 data-splitout=”none”
+                                 data-responsive_offset=”on”
+                                 data-fontsize="['14','14','14','14']"
+                                 data-lineheight="['14','14','14','14']"
+                                 style="z-index: 2;">HTML Template
+                            </div>
+                        </li>
+
+
+                        <!-- SLIDE  -->
+                        <li data-transition="fade" data-slotamount="default" data-masterspeed="default"
+                            data-thumb="assets/custom/images/vasko/rs-images/images/transparent.png"
+                            data-title="Slide">
+                            <!-- MAIN IMAGE -->
+                            <img src="assets/custom/images/vasko/rs-images/02.jpg" alt="fullslide2"
+                                 data-bgposition="center center"
+                                 data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <!-- LAYERS -->
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption cap-title font-accident-one-bold color01 tp-resizeme rs-parallaxlevel-1"
+                                 data-x="left"
+                                 data-y="center"
+                                 data-basealign="grid"
+                                 data-voffset="-50"
+                                 data-hoffset="['0','10','18','21']"
+                                 data-width=”auto”
+                                 data-height=”auto”
+                                 data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                 data-transform_out="auto:auto;s:700;"
+                                 data-start="1600"
+                                 data-splitin=”none”
+                                 data-splitout=”none”
+                                 data-responsive_offset=”on”
+                                 data-fontsize="['72','64','50','40']"
+                                 data-lineheight="['80','70','60','40']"
+                                 style="z-index: 2;">fletcher
+                            </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption cap-subtitle font-accident-one-light color01 tp-resizeme rs-parallaxlevel-1"
+                                 data-x="left"
+                                 data-y="center"
+                                 data-basealign="grid"
+                                 data-voffset="0"
+                                 data-hoffset="['0','10','18','21']"
+                                 data-width=”auto”
+                                 data-height=”auto”
+                                 data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                 data-transform_out="auto:auto;s:700;"
+                                 data-start="2000"
+                                 data-splitin=”none”
+                                 data-splitout=”none”
+                                 data-responsive_offset=”on”
+                                 data-fontsize="['21','21','21','21']"
+                                 data-lineheight="['32','28','26','24']"
+                                 style="z-index: 2;">Universal One-page / Landing Page
+                            </div>
+
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption cap-sub-subtitle color01 tp-resizeme rs-parallaxlevel-1"
+                                 data-x="left"
+                                 data-y="center"
+                                 data-basealign="grid"
+                                 data-voffset="30"
+                                 data-hoffset="['0','10','18','21']"
+                                 data-width=”auto”
+                                 data-height=”auto”
+                                 data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                 data-transform_out="auto:auto;s:700;"
+                                 data-start="2200"
+                                 data-splitin=”none”
+                                 data-splitout=”none”
+                                 data-responsive_offset=”on”
+                                 data-fontsize="['14','14','14','14']"
+                                 data-lineheight="['14','14','14','14']"
+                                 style="z-index: 2;">HTML Template
+                            </div>
+                        </li>
+
+                        <!-- SLIDE  -->
+                        <li data-transition="fade" data-slotamount="default" data-masterspeed="default"
+                            data-thumb="assets/custom/images/vasko/rs-images/images/transparent.png"
+                            data-title="Slide">
+                            <!-- MAIN IMAGE -->
+                            <img src="assets/custom/images/vasko/rs-images/03.jpg" alt="fullslide3"
+                                 data-bgposition="center center"
+                                 data-bgfit="cover" data-bgrepeat="no-repeat">
+                            <!-- LAYERS -->
+
+
+                            <!-- LAYER NR. 1 -->
+                            <div class="tp-caption cap-title font-accident-one-bold color01 tp-resizeme rs-parallaxlevel-1"
+                                 data-x="left"
+                                 data-y="center"
+                                 data-basealign="grid"
+                                 data-voffset="-50"
+                                 data-hoffset="['0','10','18','21']"
+                                 data-width=”auto”
+                                 data-height=”auto”
+                                 data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                 data-transform_out="auto:auto;s:700;"
+                                 data-start="1600"
+                                 data-splitin=”none”
+                                 data-splitout=”none”
+                                 data-responsive_offset=”on”
+                                 data-fontsize="['72','64','50','40']"
+                                 data-lineheight="['80','70','60','40']"
+                                 style="z-index: 2;">fletcher
+                            </div>
+
+                            <!-- LAYER NR. 2 -->
+                            <div class="tp-caption cap-subtitle font-accident-one-light color01 tp-resizeme rs-parallaxlevel-1"
+                                 data-x="left"
+                                 data-y="center"
+                                 data-basealign="grid"
+                                 data-voffset="0"
+                                 data-hoffset="['0','10','18','21']"
+                                 data-width=”auto”
+                                 data-height=”auto”
+                                 data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                 data-transform_out="auto:auto;s:700;"
+                                 data-start="2000"
+                                 data-splitin=”none”
+                                 data-splitout=”none”
+                                 data-responsive_offset=”on”
+                                 data-fontsize="['21','21','21','21']"
+                                 data-lineheight="['32','28','26','24']"
+                                 style="z-index: 2;">Universal One-page / Landing Page
+                            </div>
+
+                            <!-- LAYER NR. 3 -->
+                            <div class="tp-caption cap-sub-subtitle color01 tp-resizeme rs-parallaxlevel-1"
+                                 data-x="left"
+                                 data-y="center"
+                                 data-basealign="grid"
+                                 data-voffset="30"
+                                 data-hoffset="['0','10','18','21']"
+                                 data-width=”auto”
+                                 data-height=”auto”
+                                 data-whitespace=”[‘nowrap’,’normal’,’normal’,’normal’]”
+                                 data-transform_idle="o:1;"
+                                 data-transform_in="z:0;rX:0;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;s:1500;e:Power3.easeInOut;"
+                                 data-transform_out="auto:auto;s:700;"
+                                 data-start="2200"
+                                 data-splitin=”none”
+                                 data-splitout=”none”
+                                 data-responsive_offset=”on”
+                                 data-fontsize="['14','14','14','14']"
+                                 data-lineheight="['14','14','14','14']"
+                                 style="z-index: 2;">HTML Template
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="tp-bannertimer"></div>
+                </div>
             </div>
+        </section>
+        <!-- /Revolution Slider -->
 
-            <div class="dividewhite8"></div>
+        <!-- Details Block -->
+        <section id="details" class="e-block dark bg-darkblue pt-section" data-name="Details">
+            <div class="container dark">
+                <div class="container text-center">
+                    <span class="flaticon-solar-system-2 details-big-icon"></span>
+                    <div class="dividewhite1"></div>
+                    <h2 class="font-accident-one-bold fontcolor-invert">Experienced Specialist</h2>
+                    <div class="dividewhite2"></div>
+                    <h5 class="font-regular-bold uppercase hovercolor">Fletcher – The Universal One-page HTML
+                        Template</h5>
+                    <div class="dividewhite3"></div>
+                    <p class="">
+                        Perfect as corporate, product and app landing page,
+                        creative Portfolio or personal Curriculum Vitae / Resume website.
+                        <br>Fletcher Template is suitable for photographers, designers, artist, painters, illustrators
+                        <br>and other creative persons for showing their skills, works, experience and services.
+                    </p>
+                </div>
 
-            <div class="row">
-               <div class="col-md-3 infoblock">
-                  <div class="row">
-                     <div class="col-lg-3 col-md-4 col-sm-2 text-right"><i class="flaticon-satellite"></i><div class="dividewhite1"></div></div>
-                     <div class="col-lg-9 col-md-8 col-sm-10">
-                        <h4 class="font-accident-one-bold">Creative</h4>
+                <div class="dividewhite8"></div>
+
+                <div class="row">
+                    <div class="col-md-3 infoblock">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-2 text-right">
+                                <i class="flaticon-satellite"></i>
+                                <div class="dividewhite1"></div>
+                            </div>
+                            <div class="col-lg-9 col-md-8 col-sm-10">
+                                <h4 class="font-accident-one-bold">Creative</h4>
+                                <div class="dividewhite1"></div>
+                                <p class="fontcolor-medium-light">
+                                    Fletcher is fully Responsive, mobile-friendly and Retina-ready. It’s design &
+                                    premium
+                                    graphics look awesome on any device your client uses.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 infoblock">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-2 text-right">
+                                <i class="flaticon-rocket"></i>
+                                <div class="dividewhite1"></div>
+                            </div>
+                            <div class="col-lg-9 col-md-8 col-sm-10">
+                                <h4 class="font-accident-one-bold">Self-motivated</h4>
+                                <div class="dividewhite1"></div>
+                                <p class="fontcolor-medium-light">
+                                    Fletcher Theme is suitable for photographers, designers, artist, painters,
+                                    illustrators and other creative persons for showing their skills
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 infoblock">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-2 text-right"><i class="flaticon-saturn"></i>
+                                <div class="dividewhite1"></div>
+                            </div>
+                            <div class="col-lg-9 col-md-8 col-sm-10">
+                                <h4 class="font-accident-one-bold">Punctual</h4>
+                                <div class="dividewhite1"></div>
+                                <p class="fontcolor-medium-light">
+                                    Design & premium graphics look awesome on any device your employer/client uses:
+                                    iPhone,
+                                    iPad, Android, Mac, BlackBerry, Windows & Linux.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 infoblock">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-sm-2 text-right">
+                                <i class="flaticon-target-3"></i>
+                                <div class="dividewhite1"></div>
+                            </div>
+                            <div class="col-lg-9 col-md-8 col-sm-10">
+                                <h4 class="font-accident-one-bold">Multitask</h4>
+                                <div class="dividewhite1"></div>
+                                <p class="fontcolor-medium-light">
+                                    Fletcher is fully Responsive, mobile-friendly and Retina-ready. It’s design &
+                                    premium
+                                    graphics look awesome on any device your client uses.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Details Block -->
+
+        <!--  Portfolio Block  -->
+        <section id="portfolio" class="e-block light pt-section" data-name="Portfolio">
+            <div class="">
+                <div class="container text-center">
+                    <h2 class="font-accident-one-bold dark-blue">Portfolio</h2>
+                    <div class="dividewhite1"></div>
+                    <h5 class="font-accident-one-bold uppercase hovercolor">Working hard and making the success</h5>
+                    <div class="dividewhite3"></div>
+                    <p class="">
+                        Perfect as corporate, product and app landing page,
+                        creative Portfolio or personal Curriculum Vitae / Resume website.
+                        <br>Fletcher Template is suitable for photographers, designers, artist, painters, illustrators
+                        <br>and other creative persons for showing their skills, works, experience and services.
+                    </p>
+                </div>
+
+                <div class="dividewhite8"></div>
+
+                <div id="isotope-filters" class="port-filter container text-center">
+                    <ul>
+                        <li><a href="#cat1" data-filter="*">All</a></li>
+                        <li><a href="#cat2" data-filter=".pedals">Pedals</a></li>
+                        <li><a href="#cat3" data-filter=".amps">Amps</a></li>
+                        <li><a href="#cat4" data-filter=".rehousing">Rehousing</a></li>
+                    </ul>
+                </div>
+                <div class="dividewhite4"></div>
+                <div class="grid container text-center">
+                    <div id="posts" class="row popup-container">
+                        <div class="grid-item pedals col-lg-3 col-md-4 col-sm-6">
+                            <div class="item-wrap">
+                                <figure class="effect-goliath">
+                                    <div class="popup-call">
+                                        <a href="assets/custom/images/vasko/portfolio/01.jpg" class="gallery-item">
+                                            <i class="flaticon-gallery"></i>
+                                        </a>
+                                    </div>
+                                    <img src="assets/custom/images/vasko/portfolio/01.jpg"
+                                         class="img-responsive" alt="img01"/>
+                                    <figcaption>
+                                        <div class="fig-description">
+                                            <h3>Responsive Template</h3>
+                                            <p>#pedals </p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="grid-item amps col-lg-3 col-md-4 col-sm-6">
+                            <div class="item-wrap">
+                                <figure class="effect-goliath">
+                                    <div class="popup-call">
+                                        <a href="assets/custom/images/vasko/portfolio/02.jpg" class="gallery-item">
+                                            <i class="flaticon-gallery"></i>
+                                        </a>
+                                    </div>
+                                    <img src="assets/custom/images/vasko/portfolio/thumbs/02.jpg"
+                                         class="img-responsive" alt="img02"/>
+                                    <figcaption>
+                                        <div class="fig-description">
+                                            <h3>SEO Optimized</h3>
+                                            <p>#amps</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="grid-item grid-sizer rehousing col-lg-3 col-md-4 col-sm-6">
+                            <div class="item-wrap">
+                                <figure class="effect-goliath">
+                                    <div class="popup-call">
+                                        <a href="assets/custom/images/vasko/portfolio/03.jpg" class="gallery-item">
+                                            <i class="flaticon-gallery"></i>
+                                        </a>
+                                    </div>
+                                    <img src="assets/custom/images/vasko/portfolio/thumbs/03.jpg"
+                                         class="img-responsive" alt="img03"/>
+                                    <figcaption>
+                                        <div class="fig-description">
+                                            <h3>Clean Design</h3>
+                                            <p>#rehousing</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="grid-item pedals col-lg-3 col-md-4 col-sm-6">
+                            <div class="item-wrap">
+                                <figure class="effect-goliath">
+                                    <div class="popup-call">
+                                        <a href="assets/custom/images/vasko/portfolio/04.jpg" class="gallery-item">
+                                            <i class="flaticon-gallery"></i>
+                                        </a>
+                                    </div>
+                                    <img src="assets/custom/images/vasko/portfolio/thumbs/04.jpg"
+                                         class="img-responsive" alt="img04"/>
+                                    <figcaption>
+                                        <div class="fig-description">
+                                            <h3>Creative Template</h3>
+                                            <p>#pedals</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="grid-item amps col-lg-3 col-md-4 col-sm-6">
+                            <div class="item-wrap">
+                                <figure class="effect-goliath">
+                                    <div class="popup-call">
+                                        <a href="assets/custom/images/vasko/portfolio/05.jpg" class="gallery-item">
+                                            <i class="flaticon-gallery"></i>
+                                        </a>
+                                    </div>
+                                    <img src="assets/custom/images/vasko/portfolio/thumbs/05.jpg"
+                                         class="img-responsive" alt="img05"/>
+                                    <figcaption>
+                                        <div class="fig-description">
+                                            <h3>One page Resume Template</h3>
+                                            <p>#amps</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="grid-item rehousing col-lg-3 col-md-4 col-sm-6">
+                            <div class="item-wrap">
+                                <figure class="effect-goliath">
+                                    <div class="popup-call">
+                                        <a href="assets/custom/images/vasko/portfolio/06.jpg" class="gallery-item">
+                                            <i class="flaticon-gallery"></i>
+                                        </a>
+                                    </div>
+                                    <img src="assets/custom/images/vasko/portfolio/thumbs/06.jpg"
+                                         class="img-responsive" alt="img06"/>
+                                    <figcaption>
+                                        <div class="fig-description">
+                                            <h3>Professional Portfolio</h3>
+                                            <p>#rehousing</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="grid-item pedals col-lg-3 col-md-4 col-sm-6">
+                            <div class="item-wrap">
+                                <figure class="effect-goliath">
+                                    <div class="popup-call">
+                                        <a href="assets/custom/images/vasko/portfolio/07.jpg"
+                                           class="gallery-item"><i class="flaticon-gallery"></i></a>
+                                    </div>
+                                    <img src="assets/custom/images/vasko/portfolio/thumbs/07.jpg"
+                                         class="img-responsive" alt="img07"/>
+                                    <figcaption>
+                                        <div class="fig-description">
+                                            <h3>Skills and Achievements</h3>
+                                            <p>#pedals</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="grid-item amps col-lg-3 col-md-4 col-sm-6">
+                            <div class="item-wrap">
+                                <figure class="effect-goliath">
+                                    <div class="popup-call">
+                                        <a href="assets/custom/images/vasko/portfolio/08.jpg" class="gallery-item">
+                                            <i class="flaticon-gallery"></i>
+                                        </a>
+                                    </div>
+                                    <img src="assets/custom/images/vasko/portfolio/thumbs/08.jpg"
+                                         class="img-responsive" alt="img08"/>
+                                    <figcaption>
+                                        <div class="fig-description">
+                                            <h3>Landing Page</h3>
+                                            <p>#amps</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="grid-item rehousing col-lg-3 col-md-4 col-sm-6">
+                            <div class="item-wrap">
+                                <figure class="effect-goliath">
+                                    <div class="popup-call">
+                                        <a href="assets/custom/images/vasko/portfolio/09.jpg" class="gallery-item">
+                                            <i class="flaticon-gallery"></i></a>
+                                    </div>
+                                    <img src="assets/custom/images/vasko/portfolio/thumbs/09.jpg"
+                                         class="img-responsive" alt="img09"/>
+                                    <figcaption>
+                                        <div class="fig-description">
+                                            <h3>Landing Page</h3>
+                                            <p>#rehousing</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="grid-item pedals col-lg-3 col-md-4 col-sm-6">
+                            <div class="item-wrap">
+                                <figure class="effect-goliath">
+                                    <div class="popup-call">
+                                        <a href="assets/custom/images/vasko/portfolio/10.jpg" class="gallery-item">
+                                            <i class="flaticon-gallery"></i>
+                                        </a>
+                                    </div>
+                                    <img src="assets/custom/images/vasko/portfolio/thumbs/10.jpg"
+                                         class="img-responsive" alt="img10"/>
+                                    <figcaption>
+                                        <div class="fig-description">
+                                            <h3>Landing Page</h3>
+                                            <p>#pedals</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="grid-item amps col-lg-3 col-md-4 col-sm-6">
+                            <div class="item-wrap">
+                                <figure class="effect-goliath">
+                                    <div class="popup-call">
+                                        <a href="assets/custom/images/vasko/portfolio/11.jpg" class="gallery-item">
+                                            <i class="flaticon-gallery"></i>
+                                        </a>
+                                    </div>
+                                    <img src="assets/custom/images/vasko/portfolio/thumbs/11.jpg"
+                                         class="img-responsive" alt="img11"/>
+                                    <figcaption>
+                                        <div class="fig-description">
+                                            <h3>Landing Page</h3>
+                                            <p>#amps</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                        <div class="grid-item rehousing col-lg-3 col-md-4 col-sm-6">
+                            <div class="item-wrap">
+                                <figure class="effect-goliath">
+                                    <div class="popup-call">
+                                        <a href="assets/custom/images/vasko/portfolio/12.jpg" class="gallery-item">
+                                            <i class="flaticon-gallery"></i>
+                                        </a>
+                                    </div>
+                                    <img src="assets/custom/images/vasko/portfolio/thumbs/12.jpg"
+                                         class="img-responsive" alt="img12"/>
+                                    <figcaption>
+                                        <div class="fig-description">
+                                            <h3>Landing Page</h3>
+                                            <p>#rehousing</p>
+                                        </div>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- /Portfolio Block  -->
+
+        <!-- Quote -->
+        <section id="quote" class="e-block-ins light jarallax bg-john-04">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <blockquote>
+                            <p>
+                                El talento es el hombre en libertad, nace en cualquier persona que se sienta capaz de
+                                volar
+                                con sus ideas.<cite>Luis Alberto Spinetta</cite>
+                            </p>
+                        </blockquote>
+                    </div>
+                    <div class="col-md-2"></div>
+                </div>
+            </div>
+        </section>
+        <!-- /Quote -->
+
+        <!-- Video -->
+        <section id="video" class="e-block-ins dark jarallax bg-john-03">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="dividewhite4"></div>
+                        <h3 class="font-accident-one-bold">Qué me inspira?</h3>
                         <div class="dividewhite1"></div>
-                        <p class="fontcolor-medium-light">
-                           Fletcher is fully Responsive, mobile-friendly and Retina-ready. It’s design & premium graphics look awesome on any device your client uses.
+                        <p class="what-inspires-me">
+                            Fletcher Creative One page WordPress theme is ideal for creative studios, agencies and
+                            creative
+                            teams as the product / service / app landing promo page. It comes with pre-defined
+                            demo-content
+                            and allows to make a wide range customization via standard WordPress Customizer feature.
                         </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-3 infoblock">
-                  <div class="row">
-                     <div class="col-lg-3 col-md-4 col-sm-2 text-right"><i class="flaticon-rocket"></i><div class="dividewhite1"></div></div>
-                     <div class="col-lg-9 col-md-8 col-sm-10">
-                        <h4 class="font-accident-one-bold">Self-motivated</h4>
                         <div class="dividewhite1"></div>
-                        <p class="fontcolor-medium-light">
-                           Fletcher Theme is suitable for photographers, designers, artist, painters, illustrators and other creative persons for showing their skills
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-3 infoblock">
-                  <div class="row">
-                     <div class="col-lg-3 col-md-4 col-sm-2 text-right"><i class="flaticon-saturn"></i><div class="dividewhite1"></div></div>
-                     <div class="col-lg-9 col-md-8 col-sm-10">
-                        <h4 class="font-accident-one-bold">Punctual</h4>
-                        <div class="dividewhite1"></div>
-                        <p class="fontcolor-medium-light">
-                           Design & premium graphics look awesome on any device your employer/client uses: iPhone, iPad, Android, Mac, BlackBerry, Windows & Linux.
-                        </p>
-                     </div>
-                  </div>
-               </div>
-               <div class="col-md-3 infoblock">
-                  <div class="row">
-                     <div class="col-lg-3 col-md-4 col-sm-2 text-right"><i class="flaticon-target-3"></i><div class="dividewhite1"></div></div>
-                     <div class="col-lg-9 col-md-8 col-sm-10">
-                        <h4 class="font-accident-one-bold">Multitask</h4>
-                        <div class="dividewhite1"></div>
-                        <p class="fontcolor-medium-light">
-                           Fletcher is fully Responsive, mobile-friendly and Retina-ready. It’s design & premium graphics look awesome on any device your client uses.
-                        </p>
-                     </div>
-                  </div>
-               </div>
+                        <div>
+                        </div>
+                        <div class="dividewhite3"></div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/vpXdOmoldk8"
+                                    frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                </div>
             </div>
-         </div>
-      </section>
-      <!-- /Details Block -->
+        </section>
+        <!-- /Video -->
+    </div>
 
-      <!--  Portfolio Block  -->
-      <section id="portfolio" class="e-block light pt-section" data-name="Portfolio">
-         <div class="">
-
-            <div class="container text-center">
-               <h2 class="font-accident-one-bold dark-blue">Portfolio</h2>
-               <div class="dividewhite1"></div>
-               <h5 class="font-accident-one-bold uppercase hovercolor">Working hard and making the success</h5>
-               <div class="dividewhite3"></div>
-               <p class="">
-                  Perfect as corporate, product and app landing page, creative Portfolio or personal Curriculum Vitae / Resume website.
-                  <br>Fletcher Template is suitable for photographers, designers, artist, painters, illustrators
-                  <br>and other creative persons for showing their skills, works, experience and services.
-               </p>
+    <!-- footer -->
+    <footer>
+        <div id="footer-wrapper" class="bg-darkblue dark">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-4">
+                        <!-- About Widget -->
+                        <h4>Juan Ignacio Inzaugarat</h4>
+                        <div class="dividewhite2"></div>
+                        <p>Fabricación de amplificadores y pedales boutiques.</p>
+                        <!-- / About Widget -->
+                        <div class="dividewhite4"></div>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <!-- Contacts Widget -->
+                        <h4>Contact</h4>
+                        <div class="dividewhite2"></div>
+                        <div class="col-md-12">
+                            <div class="inline-block">
+                                <a class="text-center" href="mailto:nacho_v8@hotmail.com">
+                                    <i class="fa fa-envelope" title="Email" aria-hidden="true"></i>
+                                    nacho_v8@hotmail.com
+                                </a>
+                            </div>
+                        </div>
+                        <!-- / Contacts Widget -->
+                        <div class="dividewhite4"></div>
+                    </div>
+                    <div class="col-sm-4 text-center">
+                        <!-- Follow us Widget -->
+                        <h4>Follow me</h4>
+                        <div class="dividewhite2"></div>
+                        <div class="follow dark">
+                            <div class="inline-block">
+                                <a href="https://www.youtube.com/channel/UCBYa0-4bTeXqrDwh1k218NQ" target="_blank">
+                                    <i class="fa fa-youtube-play" title="YouTuBe" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                            <div class="inline-block">
+                                <a href="https://www.instagram.com/vaskoamps_effects" target="_blank">
+                                    <i class="fa fa-instagram" title="Instagram" aria-hidden="true"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- / Follow us Widget -->
+                        <div class="dividewhite4"></div>
+                    </div>
+                </div>
             </div>
-
-            <div class="dividewhite8"></div>
-
-            <div id="isotope-filters" class="port-filter container text-center">
-               <ul>
-                  <li><a href="#cat1" data-filter="*">All</a></li>
-                  <li><a href="#cat2" data-filter=".pedals">Pedals</a></li>
-                  <li><a href="#cat3" data-filter=".amps">Amps</a></li>
-                  <li><a href="#cat4" data-filter=".rehousing">Rehousing</a></li>
-               </ul>
+        </div>
+        <div id="copyrights-wrapper" class="e-block-dark dark" style="background-color:#252b33;">
+            <div class="container text-center copy-container">
+                <div class="copyright">
+                    © <a href="/" target="_blank">Juan Ignacio Inzaugarat</a>. All rights reserved &nbsp;&nbsp;&nbsp;
+                </div>
             </div>
-            <div class="dividewhite4"></div>
-            <div class="grid container text-center">
-               <div id="posts" class="row popup-container">
-                   <div class="grid-item pedals col-lg-3 col-md-4 col-sm-6">
-                     <div class="item-wrap">
-                        <figure class="effect-goliath">
-                           <div class="popup-call">
-                              <a href="assets/custom/images/vasko/portfolio/01.jpg" class="gallery-item">
-                                  <i class="flaticon-gallery"></i>
-                              </a>
-                           </div>
-                           <img src="assets/custom/images/vasko/portfolio/01.jpg"
-                                class="img-responsive" alt="img01"/>
-                           <figcaption>
-                              <div class="fig-description">
-                                 <h3>Responsive Template</h3>
-                                 <p>#web #seo </p>
-                              </div>
-                           </figcaption>
-                        </figure>
-                     </div>
-                  </div>
-                   <div class="grid-item amps col-lg-3 col-md-4 col-sm-6">
-                     <div class="item-wrap">
-                        <figure class="effect-goliath">
-                           <div class="popup-call">
-                              <a href="assets/custom/images/vasko/portfolio/02.jpg" class="gallery-item">
-                                  <i class="flaticon-gallery"></i>
-                              </a>
-                           </div>
-                           <img src="assets/custom/images/vasko/portfolio/thumbs/02.jpg"
-                                class="img-responsive" alt="img02"/>
-                           <figcaption>
-                              <div class="fig-description">
-                                 <h3>SEO Optimized</h3>
-                                 <p>#web #seo </p>
-                              </div>
-                           </figcaption>
-                        </figure>
-                     </div>
-                  </div>
-                   <div class="grid-item grid-sizer rehousing col-lg-3 col-md-4 col-sm-6">
-                     <div class="item-wrap">
-                        <figure class="effect-goliath">
-                           <div class="popup-call">
-                              <a href="assets/custom/images/vasko/portfolio/03.jpg" class="gallery-item">
-                                  <i class="flaticon-gallery"></i>
-                              </a>
-                           </div>
-                           <img src="assets/custom/images/vasko/portfolio/thumbs/03.jpg"
-                                class="img-responsive" alt="img03"/>
-                           <figcaption>
-                              <div class="fig-description">
-                                 <h3>Clean Design</h3>
-                                 <p>#web #seo</p>
-                              </div>
-                           </figcaption>
-                        </figure>
-                     </div>
-                  </div>
-                   <div class="grid-item pedals col-lg-3 col-md-4 col-sm-6">
-                     <div class="item-wrap">
-                        <figure class="effect-goliath">
-                           <div class="popup-call">
-                              <a href="assets/custom/images/vasko/portfolio/04.jpg" class="gallery-item">
-                                  <i class="flaticon-gallery"></i>
-                              </a>
-                           </div>
-                           <img src="assets/custom/images/vasko/portfolio/thumbs/04.jpg"
-                                class="img-responsive" alt="img04"/>
-                           <figcaption>
-                              <div class="fig-description">
-                                 <h3>Creative Template</h3>
-                                 <p>#marketing</p>
-                              </div>
-                           </figcaption>
-                        </figure>
-                     </div>
-                  </div>
-                   <div class="grid-item amps col-lg-3 col-md-4 col-sm-6">
-                     <div class="item-wrap">
-                        <figure class="effect-goliath">
-                           <div class="popup-call">
-                              <a href="assets/custom/images/vasko/portfolio/05.jpg" class="gallery-item">
-                                  <i class="flaticon-gallery"></i>
-                              </a>
-                           </div>
-                           <img src="assets/custom/images/vasko/portfolio/thumbs/05.jpg"
-                                class="img-responsive" alt="img05"/>
-                           <figcaption>
-                              <div class="fig-description">
-                                 <h3>One page Resume Template</h3>
-                                 <p>#marketing</p>
-                              </div>
-                           </figcaption>
-                        </figure>
-                     </div>
-                  </div>
-                   <div class="grid-item rehousing col-lg-3 col-md-4 col-sm-6">
-                     <div class="item-wrap">
-                        <figure class="effect-goliath">
-                           <div class="popup-call">
-                              <a href="assets/custom/images/vasko/portfolio/06.jpg" class="gallery-item">
-                                  <i class="flaticon-gallery"></i>
-                              </a>
-                           </div>
-                           <img src="assets/custom/images/vasko/portfolio/thumbs/06.jpg"
-                                class="img-responsive" alt="img06"/>
-                           <figcaption>
-                              <div class="fig-description">
-                                 <h3>Professional Portfolio</h3>
-                                 <p>#web #seo </p>
-                              </div>
-                           </figcaption>
-                        </figure>
-                     </div>
-                  </div>
-                   <div class="grid-item pedals col-lg-3 col-md-4 col-sm-6">
-                     <div class="item-wrap">
-                        <figure class="effect-goliath">
-                           <div class="popup-call">
-                              <a href="assets/custom/images/vasko/portfolio/07.jpg"
-                                 class="gallery-item"><i class="flaticon-gallery"></i></a>
-                           </div>
-                           <img src="assets/custom/images/vasko/portfolio/thumbs/07.jpg"
-                                class="img-responsive" alt="img07"/>
-                           <figcaption>
-                              <div class="fig-description">
-                                 <h3>Skills and Acheivements</h3>
-                                 <p>#web #seo</p>
-                              </div>
-                           </figcaption>
-                        </figure>
-                     </div>
-                  </div>
-                   <div class="grid-item amps col-lg-3 col-md-4 col-sm-6">
-                       <div class="item-wrap">
-                           <figure class="effect-goliath">
-                               <div class="popup-call">
-                                   <a href="assets/custom/images/vasko/portfolio/08.jpg" class="gallery-item">
-                                       <i class="flaticon-gallery"></i>
-                                   </a>
-                               </div>
-                               <img src="assets/custom/images/vasko/portfolio/thumbs/08.jpg"
-                                    class="img-responsive" alt="img08"/>
-                               <figcaption>
-                                   <div class="fig-description">
-                                       <h3>Landing Page</h3>
-                                       <p>#web #seo</p>
-                                   </div>
-                               </figcaption>
-                           </figure>
-                       </div>
-                   </div>
-                   <div class="grid-item rehousing col-lg-3 col-md-4 col-sm-6">
-                       <div class="item-wrap">
-                           <figure class="effect-goliath">
-                               <div class="popup-call">
-                                   <a href="assets/custom/images/vasko/portfolio/09.jpg" class="gallery-item">
-                                       <i class="flaticon-gallery"></i></a>
-                               </div>
-                               <img src="assets/custom/images/vasko/portfolio/thumbs/09.jpg"
-                                    class="img-responsive" alt="img09"/>
-                               <figcaption>
-                                   <div class="fig-description">
-                                       <h3>Landing Page</h3>
-                                       <p>#web #seo</p>
-                                   </div>
-                               </figcaption>
-                           </figure>
-                       </div>
-                   </div>
-                   <div class="grid-item pedals col-lg-3 col-md-4 col-sm-6">
-                       <div class="item-wrap">
-                           <figure class="effect-goliath">
-                               <div class="popup-call">
-                                   <a href="assets/custom/images/vasko/portfolio/10.jpg" class="gallery-item">
-                                       <i class="flaticon-gallery"></i>
-                                   </a>
-                               </div>
-                               <img src="assets/custom/images/vasko/portfolio/thumbs/10.jpg"
-                                    class="img-responsive" alt="img10"/>
-                               <figcaption>
-                                   <div class="fig-description">
-                                       <h3>Landing Page</h3>
-                                       <p>#web #seo</p>
-                                   </div>
-                               </figcaption>
-                           </figure>
-                       </div>
-                   </div>
-                   <div class="grid-item amps col-lg-3 col-md-4 col-sm-6">
-                       <div class="item-wrap">
-                           <figure class="effect-goliath">
-                               <div class="popup-call">
-                                   <a href="assets/custom/images/vasko/portfolio/11.jpg" class="gallery-item">
-                                       <i class="flaticon-gallery"></i>
-                                   </a>
-                               </div>
-                               <img src="assets/custom/images/vasko/portfolio/thumbs/11.jpg"
-                                    class="img-responsive" alt="img11"/>
-                               <figcaption>
-                                   <div class="fig-description">
-                                       <h3>Landing Page</h3>
-                                       <p>#web #seo</p>
-                                   </div>
-                               </figcaption>
-                           </figure>
-                       </div>
-                   </div>
-                   <div class="grid-item rehousing col-lg-3 col-md-4 col-sm-6">
-                       <div class="item-wrap">
-                           <figure class="effect-goliath">
-                               <div class="popup-call">
-                                   <a href="assets/custom/images/vasko/portfolio/12.jpg" class="gallery-item">
-                                       <i class="flaticon-gallery"></i>
-                                   </a>
-                               </div>
-                               <img src="assets/custom/images/vasko/portfolio/thumbs/12.jpg"
-                                    class="img-responsive" alt="img12"/>
-                               <figcaption>
-                                   <div class="fig-description">
-                                       <h3>Landing Page</h3>
-                                       <p>#web #seo</p>
-                                   </div>
-                               </figcaption>
-                           </figure>
-                       </div>
-                   </div>
-               </div>
+        </div>
+    </footer>
+    <!-- /footer -->
 
-            </div>
-
-         </div>
-      </section>
-      <!-- /Portfolio Block  -->
-
-      <!-- Quote -->
-      <section id="quote" class="e-block-ins light jarallax bg-john-04">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-2"></div>
-               <div class="col-md-8">
-                  <blockquote>
-                      <p>
-                          El talento es el hombre en libertad, nace en cualquier persona que se sienta capaz de volar
-                          con sus ideas.<cite>Luis Alberto Spinetta</cite>
-                      </p>
-                  </blockquote>
-               </div>
-               <div class="col-md-2"></div>
-            </div>
-         </div>
-      </section>
-      <!-- /Quote -->
-
-      <!-- Video -->
-      <section id="video" class="e-block-ins dark jarallax bg-john-03">
-         <div class="container">
-            <div class="row">
-               <div class="col-md-6">
-                   <div class="dividewhite4"></div>
-                   <h3 class="font-accident-one-bold">Qué me inspira?</h3>
-                   <div class="dividewhite1"></div>
-                   <p class="what-inspires-me">
-                     Fletcher Creative One page WordPress theme is ideal for creative studios, agencies and creative
-                     teams as the product / service / app landing promo page. It comes with pre-defined demo-content
-                     and allows to make a wide range customization via standard WordPress Customizer feature.
-                  </p>
-                   <div class="dividewhite1"></div>
-                   <div>
-                  </div>
-                  <div class="dividewhite3"></div>
-               </div>
-               <div class="col-md-6">
-                  <div class="embed-responsive embed-responsive-16by9">
-                      <iframe width="560" height="315" src="https://www.youtube.com/embed/vpXdOmoldk8" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </section>
-      <!-- /Video -->
-   </div>
-
-   <!-- footer -->
-   <footer>
-      <div id="footer-wrapper" class="bg-darkblue dark">
-         <div class="container">
-            <div class="row">
-               <div class="col-sm-4">
-                  <!-- About Widget -->
-                  <h4>Juan Ignacio Inzaugarat</h4>
-                  <div class="dividewhite2"></div>
-                  <p>Fabricación de amplificadores y pedales boutiques.</p>
-                  <!-- / About Widget -->
-                  <div class="dividewhite4"></div>
-               </div>
-               <div class="col-sm-4 text-center">
-                  <!-- Contacts Widget -->
-                  <h4>Contact</h4>
-                  <div class="dividewhite2"></div>
-                   <div class="col-md-12">
-                       <div class="inline-block">
-                           <a class="text-center" href="mailto:nacho_v8@hotmail.com">
-                               <i class="fa fa-envelope" title="Email" aria-hidden="true"></i>
-                               nacho_v8@hotmail.com
-                           </a>
-                       </div>
-                   </div>
-                  <!-- / Contacts Widget -->
-                  <div class="dividewhite4"></div>
-               </div>
-               <div class="col-sm-4 text-center">
-                  <!-- Follow us Widget -->
-                  <h4>Follow me</h4>
-                  <div class="dividewhite2"></div>
-                  <div class="follow dark">
-                     <div class="inline-block">
-                        <a href="https://www.youtube.com/channel/UCBYa0-4bTeXqrDwh1k218NQ" target="_blank">
-                           <i class="fa fa-youtube-play" title="YouTuBe" aria-hidden="true"></i>
-                        </a>
-                     </div>
-                     <div class="inline-block">
-                        <a href="https://www.instagram.com/vaskoamps_effects" target="_blank">
-                           <i class="fa fa-instagram" title="Instagram" aria-hidden="true"></i>
-                        </a>
-                     </div>
-                  </div>
-                  <!-- / Follow us Widget -->
-                  <div class="dividewhite4"></div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div id="copyrights-wrapper" class="e-block-dark dark" style="background-color:#252b33;">
-         <div class="container text-center copy-container">
-            <div class="copyright">
-               © <a href="/" target="_blank">Juan Ignacio Inzaugarat</a>. All rights reserved &nbsp;&nbsp;&nbsp;
-            </div>
-         </div>
-      </div>
-   </footer>
-   <!-- /footer -->
-
-   <!-- Back to Top -->
-   <div id="back-top"><a href="#top"></a></div>
-   <!-- /Back to Top -->
-
+    <!-- Back to Top -->
+    <div id="back-top"><a href="#top"></a></div>
+    <!-- /Back to Top -->
 </div>
 
 <div id="image-cache" class="hidden"></div>
 
 <!-- CSS -->
-<link href="assets/vendor/bootstrap/css/bootstrap.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
-<link href="assets/vendor/fontawesome/css/font-awesome.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+<link href="assets/vendor/bootstrap/css/bootstrap.min.css" property='stylesheet' rel="stylesheet" type="text/css"
+      media="screen"/>
+<link href="assets/vendor/fontawesome/css/font-awesome.min.css" property='stylesheet' rel="stylesheet" type="text/css"
+      media="screen"/>
 <link href="assets/vendor/flaticon/flaticon.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
 
-<link href="assets/vendor/rs-plugin/css/settings.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
-<link href="assets/vendor/rs-plugin/css/layers.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
-<link href="assets/vendor/rs-plugin/css/navigation.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+<link href="assets/vendor/rs-plugin/css/settings.css" property='stylesheet' rel="stylesheet" type="text/css"
+      media="screen"/>
+<link href="assets/vendor/rs-plugin/css/layers.css" property='stylesheet' rel="stylesheet" type="text/css"
+      media="screen"/>
+<link href="assets/vendor/rs-plugin/css/navigation.css" property='stylesheet' rel="stylesheet" type="text/css"
+      media="screen"/>
 
-<link href="assets/vendor/mfp/css/magnific-popup.min.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
+<link href="assets/vendor/mfp/css/magnific-popup.min.css" property='stylesheet' rel="stylesheet" type="text/css"
+      media="screen"/>
 <link href="assets/vendor/progresstracker/css/jquery.progresstracker.min.css" property='stylesheet' rel="stylesheet">
 
 <!-- Custom CSS -->
 <link href="assets/custom/css/style.css" property='stylesheet' rel="stylesheet" type="text/css" media="screen"/>
-
-
 
 <!-- JS -->
 <script type="text/javascript" src="assets/vendor/jquery/js/jquery-2.2.0.min.js"></script>
@@ -933,9 +968,12 @@
 <script type="text/javascript" src="assets/vendor/horiz-timeline/js/hortimeline.min.js"></script>
 <script type="text/javascript" src="assets/vendor/rs-plugin/js/jquery.themepunch.tools.min.js?rev=5.0"></script>
 <script type="text/javascript" src="assets/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js?rev=5.0"></script>
-<script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
-<script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
-<script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
+<script type="text/javascript"
+        src="assets/vendor/rs-plugin/js/extensions/revolution.extension.slideanims.min.js"></script>
+<script type="text/javascript"
+        src="assets/vendor/rs-plugin/js/extensions/revolution.extension.layeranimation.min.js"></script>
+<script type="text/javascript"
+        src="assets/vendor/rs-plugin/js/extensions/revolution.extension.navigation.min.js"></script>
 <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.actions.min.js"></script>
 <script type="text/javascript" src="assets/vendor/rs-plugin/js/extensions/revolution.extension.video.min.js"></script>
 
