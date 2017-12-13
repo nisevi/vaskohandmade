@@ -28,17 +28,17 @@ $l-grey: #f2f2f2;
 $grey: #999;
 
 // Sections backgrounds
-$bg-john-03: url('../images/vasko/backgrounds/03.jpg');
-$bg-john-04: url('../images/vasko/backgrounds/04.jpg');
+$bg-vasko-03: url('../images/vasko/backgrounds/03.jpg');
+$bg-vasko-04: url('../images/vasko/backgrounds/04.jpg');
 
-.bg-john-03 {
-  background: $bg-john-03;
+.bg-vasko-03 {
+  background: $bg-vasko-03;
   //background-position: center center;
   //background-size: cover;
 }
 
-.bg-john-04 {
-  background: $bg-john-04;
+.bg-vasko-04 {
+  background: $bg-vasko-04;
   //background-position: center center;
   //background-size: cover;
 }

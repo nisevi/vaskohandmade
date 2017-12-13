@@ -1,10 +1,10 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700|Roboto:100,300,400,400i,500,700,900");
 
-.bg-john-03 {
+.bg-vasko-03 {
     background: url("../images/vasko/backgrounds/03.jpg");
 }
 
-.bg-john-04 {
+.bg-vasko-04 {
     background: url("../images/vasko/backgrounds/04.jpg");
 }
 
@@ -1641,28 +1641,28 @@ ul.sf-menu > li, .sf-menu > li > a {
     padding: 12px 4px;
 }
 
-.mobmenu-john {
+.mobmenu-vasko {
     background: #303030;
 }
 
-.mobmenu-john .icon-list a:hover, .mobmenu-john .icon-list a:focus {
+.mobmenu-vasko .icon-list a:hover, .mobmenu-vasko .icon-list a:focus {
     color: #E84855;
 }
 
-.mobmenu-john .icon-list a:hover i:before, .mobmenu-john .icon-list a:focus i:before {
+.mobmenu-vasko .icon-list a:hover i:before, .mobmenu-vasko .icon-list a:focus i:before {
     color: #E84855;
 }
 
-.mobmenu-john .icon-list .m-usermenu {
+.mobmenu-vasko .icon-list .m-usermenu {
     background: none;
     border-left: 1px solid #E84855;
 }
 
-.mobmenu-john .icon-list .socials li i:before {
+.mobmenu-vasko .icon-list .socials li i:before {
     color: #a7a7a7;
 }
 
-.mobmenu-john .icon-list .socials li:hover i:before {
+.mobmenu-vasko .icon-list .socials li:hover i:before {
     color: #E84855;
 }
 
