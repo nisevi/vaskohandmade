@@ -1946,8 +1946,9 @@ ul.sf-menu > li, .sf-menu > li > a {
 }
 
 #header-wrapper-mp .header-dark #main-menu > ul > li > a {
-    color: #dadada;
+    color: white;
     letter-spacing: 3px;
+    font-size: 1.5em;
 }
 
 #header-wrapper-mp .header-dark #main-menu > ul > li > .sf-with-ul:after {
@@ -2254,7 +2255,7 @@ ul.sf-menu > li, .sf-menu > li > a {
 }
 
 #header-wrapper-mp .nobg {
-    background: none;
+    background-color:rgba(0, 0, 0, 0.5);
 }
 
 #header-wrapper-mp.sticky-menu-dark .is-sticky #main-menu .sf-arrows > li > .sf-with-ul:focus:after,

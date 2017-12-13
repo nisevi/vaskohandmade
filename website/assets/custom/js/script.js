@@ -13,15 +13,12 @@
         });
 
     });
-
     $(document).ready(function () {
 
         /* Sticky Header */
         $(".sticky-header").sticky({topSpacing: 0});
 
         /* Slider Revolution */
-
-
         // Slider0
         $("#slider0").revolution({
             sliderType: "standard",
