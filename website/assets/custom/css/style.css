@@ -3020,6 +3020,7 @@ footer .follow.light a:hover i {
 
 #footer-wrapper.dark a {
     color: #a7a7a7;
+    text-decoration: none;
 }
 
 #footer-wrapper.dark a:hover {
