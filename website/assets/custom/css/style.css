@@ -3011,6 +3011,7 @@ footer .follow.light a:hover i {
 }
 
 #footer-wrapper.dark {
+    margin-top: -5px;
     color: #a7a7a7;
 }
 
