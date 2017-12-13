@@ -1,4 +1,3 @@
-
 $color00:    #fff;
 $color01: #f2f2f2;
 $color02: #dadada;
@@ -30,32 +29,10 @@ $l-grey: #f2f2f2;
 $grey: #999;
 
 
-// John's sections backgrounds
-
-$bg-john-00: url('../images/vasko/backgrounds/00.jpg');
-$bg-john-01: url('../images/vasko/backgrounds/01.jpg');
-$bg-john-02: url('../images/vasko/backgrounds/02.jpg');
+// Sections backgrounds
 $bg-john-03: url('../images/vasko/backgrounds/03.jpg');
 $bg-john-04: url('../images/vasko/backgrounds/04.jpg');
-$bg-john-05: url('../images/vasko/backgrounds/05.jpg');
-$bg-john-06: url('../images/vasko/backgrounds/06.jpg');
-$bg-john-07: url('../images/vasko/backgrounds/07.jpg');
 
-.bg-john-00 {
-  background: $bg-john-00;
-  //background-position: center center;
-  //background-size: cover;
-}
-.bg-john-01 {
-  background: $bg-john-01;
-  //background-position: center center;
-  //background-size: cover;
-}
-.bg-john-02 {
-  background: $bg-john-02;
-  //background-position: center center;
-  //background-size: cover;
-}
 .bg-john-03 {
   background: $bg-john-03;
   //background-position: center center;
@@ -65,176 +42,6 @@ $bg-john-07: url('../images/vasko/backgrounds/07.jpg');
   background: $bg-john-04;
   //background-position: center center;
   //background-size: cover;
-}
-.bg-john-05 {
-  background: $bg-john-05;
-  //background-position: center center;
-  //background-size: cover;
-}
-.bg-john-06 {
-  background: $bg-john-06;
-  //background-position: center center;
-  //background-repeat: no-repeat;
-  //background-size: cover;
-}
-.bg-john-07 {
-  background: $bg-john-07;
-  //background-position: center center;
-  //background-repeat: no-repeat;
-  //background-size: cover;
-}
-
-.john-timeline-01 {
-  background: url("../images/vasko/timeline/timeline-1.jpg");
-  background-position: center;
-  background-size: cover;
-}
-.john-timeline-02 {
-  background: url("../images/vasko/timeline/timeline-2.jpg");
-  background-position: center;
-  background-size: cover;
-}
-.john-timeline-03 {
-  background: url("../images/vasko/timeline/timeline-3.jpg");
-  background-position: center;
-  background-size: cover;
-}
-.john-timeline-04 {
-  background: url("../images/vasko/timeline/timeline-4.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
-// Jessica's sections backgrounds
-
-$bg-jessica-01: url('../images/01-jessica/backgrounds/01.png');
-$bg-jessica-02: url('../images/01-jessica/backgrounds/02.png');
-$bg-jessica-03: url('../images/01-jessica/backgrounds/03.jpg');
-$bg-jessica-04: url('../images/01-jessica/backgrounds/04.jpg');
-$bg-jessica-05: url('../images/01-jessica/backgrounds/05.jpg');
-$bg-jessica-06: url('../images/01-jessica/backgrounds/06.jpg');
-$bg-jessica-07: url('../images/01-jessica/backgrounds/07.jpg');
-
-.bg-jessica-01 {background: $bg-jessica-01;}
-.bg-jessica-02 {background: $bg-jessica-02;}
-.bg-jessica-03 {background: $bg-jessica-03;}
-.bg-jessica-04 {background: $bg-jessica-04;}
-.bg-jessica-05 {background: $bg-jessica-05;}
-.bg-jessica-06 {background: $bg-jessica-06;}
-.bg-jessica-07 {background: $bg-jessica-07;}
-
-.jessica-timeline-01 {
-  background: url("../images/01-jessica/timeline/timeline-1-01.jpg");
-  background-position: center;
-  background-size: cover;
-}
-.jessica-timeline-02 {
-  background: url("../images/01-jessica/timeline/timeline-2-01.jpg");
-  background-position: center;
-  background-size: cover;
-}
-.jessica-timeline-03 {
-  background: url("../images/01-jessica/timeline/timeline-3-01.jpg");
-  background-position: center;
-  background-size: cover;
-}
-.jessica-timeline-04 {
-  background: url("../images/01-jessica/timeline/timeline-4-01.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
-
-// Startup sections backgrounds
-
-$bg-startup-00: url('../images/04-startup/backgrounds/bg00.jpg');
-$bg-startup-01: url('../images/04-startup/backgrounds/bg01.jpg');
-$bg-startup-02: url('../images/04-startup/backgrounds/bg02.jpg');
-$bg-startup-03: url('../images/04-startup/backgrounds/bg03.jpg');
-$bg-startup-04: url('../images/04-startup/backgrounds/bg04.jpg');
-$bg-startup-05: url('../images/04-startup/backgrounds/bg05.png');
-
-.bg-startup-00 {background: $bg-startup-00;}
-.bg-startup-01 {background: $bg-startup-01;}
-.bg-startup-02 {background: $bg-startup-02;}
-.bg-startup-03 {background: $bg-startup-03;}
-.bg-startup-04 {background: $bg-startup-04;}
-.bg-startup-05 {background: $bg-startup-05;}
-
-.startup-timeline-01 {
-  background: url("../images/04-startup/timeline/timeline-1.jpg");
-  background-position: center;
-  background-size: cover;
-}
-.startup-timeline-02 {
-  background: url("../images/04-startup/timeline/timeline-2.jpg");
-  background-position: center;
-  background-size: cover;
-}
-.startup-timeline-03 {
-  background: url("../images/04-startup/timeline/timeline-3.jpg");
-  background-position: center;
-  background-size: cover;
-}
-.startup-timeline-04 {
-  background: url("../images/04-startup/timeline/timeline-4.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
-.startup-featured-01 {background: url("../images/04-startup/featured/02-1.jpg");}
-
-
-// Samantha's sections backgrounds
-$bg-samantha-00: url('../images/03-samantha/backgrounds/bg00.jpg');
-$bg-samantha-01: url('../images/03-samantha/backgrounds/bg01.jpg');
-$bg-samantha-02: url('../images/03-samantha/backgrounds/bg02.jpg');
-$bg-samantha-03: url('../images/03-samantha/backgrounds/bg03.jpg');
-
-.bg-samantha-00 {
-  background: $bg-samantha-00;
-  background-position: center center;
-  background-size: cover;
-}
-.bg-samantha-01 {
-  background: $bg-samantha-01;
-  background-position: center center;
-  background-size: cover;
-}
-.bg-samantha-02 {
-  background: $bg-samantha-02;
-  background-position: center center;
-  background-size: cover;
-}
-.bg-samantha-03 {
-  background: $bg-samantha-03;
-  background-position: center center;
-  background-size: cover;
-}
-
-
-.timeline-bg01-02 {
-  background: url("../images/03-samantha/timeline/timeline-1-01.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
-.timeline-bg02-02 {
-  background: url("../images/03-samantha/timeline/timeline-2-01.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
-.timeline-bg03-02 {
-  background: url("../images/03-samantha/timeline/timeline-3-01.jpg");
-  background-position: center;
-  background-size: cover;
-}
-
-.timeline-bg04-02 {
-  background: url("../images/03-samantha/timeline/timeline-4-01.jpg");
-  background-position: center;
-  background-size: cover;
 }
 
 //Font/link Colors
@@ -262,7 +69,6 @@ $bg-samantha-03: url('../images/03-samantha/backgrounds/bg03.jpg');
 .color11 {color: $color11 !important;}
 .color12 {color: $color12 !important;}
 .color13 {color: $color13 !important;}
-
 
 //Background Color Classes
 .bg-color00 {background-color: $color00 !important;}
