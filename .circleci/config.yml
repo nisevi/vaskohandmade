@@ -1,0 +1,20 @@
+version: 2
+jobs:
+  build:
+    working_directory: /tmp/vasko
+    docker:
+      - image: circleci/python:3.6.2-stretch-browsers
+    steps:
+      - checkout
+      - run:
+          name: Deploying Vasko.
+          command: echo Deploying Vasko.
+      - run:
+          name: Installing dependencies.
+          command: sudo pip install awscli
+      - deploy:
+          name: Deploy to S3 if branch is Master.
+          command: |
+            if [ "${CIRCLE_BRANCH}" == "master" ]; then
+              aws s3 sync /tmp/vasko/website s3://vaskohandmade/ --delete
+            fi
