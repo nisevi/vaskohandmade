@@ -3582,7 +3582,7 @@ section.light a:hover, section.light .infoblock a:hover {
     #header-wrapper-mp .sticky-wrapper, #header-wrapper-mp .sticky-header,
     #header-wrapper-mp .is-sticky .sticky-wrapper,
     #header-wrapper-mp .is-sticky .sticky-header {
-        height: 120px !important;
+        height: 80px !important;
     }
 
     .m-desktop {
