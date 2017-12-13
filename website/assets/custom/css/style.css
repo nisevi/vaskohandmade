@@ -1848,7 +1848,7 @@ ul.sf-menu > li, .sf-menu > li > a {
 
 #header-wrapper-mp .is-sticky .sticky-header {
     filter: alpha(opacity=90);
-    height: 80px;
+    height: 120px;
     top: 0;
 }
 
@@ -3567,6 +3567,11 @@ section.light a:hover, section.light .infoblock a:hover {
         float: left;
     }
 
+    #site-title > a > img {
+        width: 150px;
+        height: 80px;
+    }
+
     #header-wrapper-mp #site-title h1,
     #header-wrapper-mp .is-sticky #site-title h1 {
         font-size: 28px;
@@ -3576,7 +3581,7 @@ section.light a:hover, section.light .infoblock a:hover {
     #header-wrapper-mp .sticky-wrapper, #header-wrapper-mp .sticky-header,
     #header-wrapper-mp .is-sticky .sticky-wrapper,
     #header-wrapper-mp .is-sticky .sticky-header {
-        height: 80px !important;
+        height: 120px !important;
     }
 
     .m-desktop {
