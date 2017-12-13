@@ -1699,36 +1699,15 @@ ul.sf-menu > li, .sf-menu > li > a {
     color: #E6FF8C;
 }
 
-.mobmenu-samantha {
-    background: #43a5e6;
-}
-
-.mobmenu-samantha .icon-list .menu-item a {
+.icon-list .menu-item a {
     color: #fff;
 }
 
-.mobmenu-samantha .icon-list .menu-item a i {
+.icon-list .menu-item a i {
     color: #fff;
 }
 
-.mobmenu-samantha .icon-list a:hover, .mobmenu-samantha .icon-list a:focus {
-    color: #E6FF8C;
-}
-
-.mobmenu-samantha .icon-list a:hover i:before, .mobmenu-samantha .icon-list a:focus i:before {
-    color: #E6FF8C;
-}
-
-.mobmenu-samantha .icon-list .m-usermenu {
-    background: none;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-}
-
-.mobmenu-samantha .icon-list .socials li i:before {
-    color: #f2f2f2;
-}
-
-.mobmenu-samantha .icon-list .socials li:hover i:before {
+.icon-list a:hover {
     color: #E6FF8C;
 }
 
