@@ -1820,7 +1820,7 @@ ul.sf-menu > li, .sf-menu > li > a {
 }
 
 #header-wrapper-mp .sticky-header {
-    height: 120px;
+    height: 80px;
     transition: all 0.25s ease 0s;
     -webkit-transition-: all 0.25s ease 0s;
     -webkit-transition: all 0.25s ease 0s;
@@ -1848,7 +1848,7 @@ ul.sf-menu > li, .sf-menu > li > a {
 
 #header-wrapper-mp .is-sticky .sticky-header {
     filter: alpha(opacity=90);
-    height: 120px;
+    height: 80px;
     top: 0;
 }
 
