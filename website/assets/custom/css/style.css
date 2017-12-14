@@ -2396,7 +2396,8 @@ ul.sf-menu > li, .sf-menu > li > a {
 }
 
 #header-wrapper-mp.sticky-menu-light .is-sticky .sticky-header {
-    background: white;
+    background-color: grey;
+    opacity: .9;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
