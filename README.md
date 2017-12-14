@@ -15,3 +15,7 @@ Here is how the process works:
      * b. If the request is for the www subdomain, the CNAME for the externally hosted CDN is served.
 4. CloudFront forwards the request to Amazon S3.
 5. S3 performs a secure redirect from www.vaskohandmade.com to vaskohandmade.com.
+
+## Continuous deployment
+
+[CircleCI](https://circleci.com/gh/nisevi/vaskohandmade) is being used to deploy from master branch to AWS.
