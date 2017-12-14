@@ -1143,7 +1143,7 @@ button, input, select, textarea {
 }
 
 .e-block {
-    padding: 130px 0 130px 0;
+    padding: 130px 0 160px 0;
 }
 
 .e-block-ins {
@@ -3655,6 +3655,12 @@ section.light a:hover, section.light .infoblock a:hover {
         border-right-width: 14px !important;
         left: -14px !important;
         right: auto !important;
+    }
+}
+
+@media (min-width: 1200px) {
+    .e-block {
+        padding: 130px 0 200px 0;
     }
 }
 
