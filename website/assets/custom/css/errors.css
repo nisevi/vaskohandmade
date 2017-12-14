@@ -1,0 +1,8 @@
+body, html {
+    height: 100%;
+}
+.bg-error {
+    height: 100%;
+    background: url("../images/vasko/errors/404.jpg") no-repeat center;
+    background-size: cover;
+}
