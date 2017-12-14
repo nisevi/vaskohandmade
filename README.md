@@ -2,11 +2,11 @@
 
 Handmade pedals and amps.
 
-## [Architecture](https://aws.amazon.com/blogs/security/how-to-protect-your-web-application-against-ddos-attacks-by-using-amazon-route-53-and-a-content-delivery-network/):
+## Architecture
 
 ![](https://github.com/nisevi/vaskohandmade/blob/master/architecture.png)
 
-Here is how the process works:
+[Here is how the process works](https://aws.amazon.com/blogs/security/how-to-protect-your-web-application-against-ddos-attacks-by-using-amazon-route-53-and-a-content-delivery-network/):
 
 1. A user’s browser makes a DNS request to Route 53.
 2. Route 53 has a hosted zone for the vaskohandmade.com domain.
