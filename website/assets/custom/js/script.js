@@ -244,7 +244,7 @@
             return false;
         }
 
-        var targetScrollPos = $(targetNavElem).offset().top - $('header .mp-nav').height() + 40;
+        var targetScrollPos = $(targetNavElem).offset().top - $('header .mp-nav').height() + 10;
 
         if (window.pageYOffset > targetScrollPos) {
             $('html, body').animate({
