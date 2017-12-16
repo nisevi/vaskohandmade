@@ -236,6 +236,11 @@
     // Soft scroll
     var softScroll = function(target, event) {
         event.preventDefault();
+        if ($(window).width() > 920 && target.toString().match(/footer/i)){
+            target = $('#last-scroll').attr('href', '#video');
+        } else if ($(window).width() <= 920 && target.toString().match(/footer/i)){
+            target = $('#last-scroll').attr('href', '#footer-wrapper');
+        }
         var targetNavElem = $(target).attr('href');
         if (targetNavElem[0] != '#') {
             window.open(
@@ -245,7 +250,9 @@
         }
 
         var targetScrollPos = $(targetNavElem).offset().top - $('header .mp-nav').height() + 10;
-
+        if ($(window).width() <= 920){
+            targetScrollPos -= 10;
+        }
         if (window.pageYOffset > targetScrollPos) {
             $('html, body').animate({
                 scrollTop: targetScrollPos - 60
